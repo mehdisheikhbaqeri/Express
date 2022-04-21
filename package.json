@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/mehdisheikhbaqeri/Express#readme",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.3"
+    "ejs": "^3.1.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
