@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 
+app.use(express.static("public"));
+
+app.use(logger);
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
@@ -9,9 +12,7 @@ app.get("/", (req, res) => {
 });
 
 const userRouter = require("./routes/users");
-const userRouter = require("./routes/posts");
 
 app.use("/users", userRouter);
-app.use("/posts", userRouter);
 
 app.listen(3023);
