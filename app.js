@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
   res.render("index", { text: "Mazlom" });
 });
 
-app.get("/users", (req, res) => {});
+const userRouter = require("./routes/users");
+const userRouter = require("./routes/posts");
+
+app.use("/users", userRouter);
+app.use("/posts", userRouter);
 
 app.listen(3023);
