@@ -1,16 +1,24 @@
 {
-  "name": "express-class",
+  "name": "Express",
   "version": "1.0.0",
-  "description": "",
+  "description": "express npm",
   "main": "app.js",
   "scripts": {
-    "devStart": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdisheikhbaqeri/Express.git"
   },
   "keywords": [],
   "author": "Mazlom.co",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehdisheikhbaqeri/Express/issues"
+  },
+  "homepage": "https://github.com/mehdisheikhbaqeri/Express#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.3"
   },
   "devDependencies": {
